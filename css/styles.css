@@ -156,16 +156,15 @@ footer img {
   height: 100vh;
   padding: 0 1, 5rem;
 }
-
-.bienvenida-texto {
-  font-size: 2rem;
-  text-align: center;
-}
-
 .index-header-contenedor-inferior p {
   text-align: center;
   padding: 1rem;
   margin: 1rem;
+}
+
+.bienvenida-texto {
+  font-size: 2rem;
+  text-align: center;
 }
 
 .fondonegro {
