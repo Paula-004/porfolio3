@@ -108,8 +108,8 @@ footer img {
 }
 
 .proyectos-header {
-  background-image: url(../imagenes/FONDO22.jpeg);
-  background-position: right;
+  background-image: url(../imagenes/FONDO21.jpeg);
+  
 }
 
 .index-header a {
@@ -120,6 +120,8 @@ footer img {
 .index-h1 {
   color: #000;
   text-align: center;
+  padding: 1rem;
+  text-decoration: underline;
 }
 
 .index-header-btn {
@@ -163,8 +165,10 @@ footer img {
 }
 
 .bienvenida-texto {
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .fondonegro {
@@ -191,6 +195,8 @@ main {
 
 .p {
   text-align: center;
+  
+
 }
 
 .contenedor-proyectos-grid {
@@ -210,6 +216,7 @@ main {
   max-width: 30rem;
   padding-bottom: 1rem;
   border: 1px solid black;
+  border-radius: 1rem;
 }
 
 .contenedor-proyectos-grid_1 img,
@@ -217,7 +224,8 @@ main {
 .contenedor-proyectos-grid_3 img,
 .contenedor-proyectos-grid_4 img,
 .contenedor-proyectos-grid_5 img {
-  width: 100%;
+  width: 50%;
+  
 }
 
 .contenedor-proyectos-grid_1 p,
@@ -234,6 +242,7 @@ main {
 .contenedor-proyectos-grid_7 p,
 .contenedor-proyectos-grid_7 h4 {
   padding-left: 1rem;
+  text-align: center;
 }
 
 .proyectos-h2 {
@@ -286,7 +295,8 @@ main {
 ul {
   display: flex;
   list-style: none;
-  flex-direction: column;
+  padding: 1rem;
+  margin: 0,5rem; 
   gap: 2rem;
   align-items: center;
 }
@@ -369,6 +379,7 @@ ul {
 .bienvenida-texto {
   font-size: 2rem;
   text-align: center;
+  text-decoration: underline;
 }
 
 .index-header-contenedor-inferior p {
@@ -427,7 +438,12 @@ main {
 .contenedor-proyectos-grid_3 img,
 .contenedor-proyectos-grid_4 img,
 .contenedor-proyectos-grid_5 img {
+
   width: 100%;
+  object-fit: cover;
+  height: 90vh;
+  gap: 1rem;
+  border-radius: 1rem;
 }
 
 .contenedor-proyectos-grid_1 p,
@@ -450,6 +466,7 @@ main {
 
 .proyectos-h2 {
   margin: 2rem;
+  text-decoration: underline;
 }
 
 /* Experiencias Estilos */
