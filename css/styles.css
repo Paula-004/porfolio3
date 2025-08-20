@@ -108,7 +108,7 @@ footer img {
 }
 
 .proyectos-header {
-  background-image: url(../imagenes/FONDO14.jpg);
+  background-image: url(../imagenes/FONDO22.jpeg);
   background-position: right;
 }
 
@@ -317,7 +317,7 @@ ul {
 }
 
 .proyectos-header {
-  background-image: url(../imagenes/FONDO14.jpg);
+  background-image: url(../imagenes/FONDO10.jpg);
   background-position: right;
 }
 
@@ -438,12 +438,14 @@ main {
 .contenedor-proyectos-grid_3 h4,
 .contenedor-proyectos-grid_4 p,
 .contenedor-proyectos-grid_4 h4,
-.contenedor-proyectos-grid_5 p .contenedor-proyectos-grid_5 h4,
+.contenedor-proyectos-grid_5 p 
+.contenedor-proyectos-grid_5 h4,
 .contenedor-proyectos-grid_6 p,
 .contenedor-proyectos-grid_6 h4,
 .contenedor-proyectos-grid_7 p,
 .contenedor-proyectos-grid_7 h4 {
   padding-left: 1rem;
+  padding: 0 1,2rem;
 }
 
 .proyectos-h2 {
