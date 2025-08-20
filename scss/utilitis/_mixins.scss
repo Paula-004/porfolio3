@@ -1,0 +1,6 @@
+// Mixins
+ @mixin fondoAltoAncho ($ancho,$alto,$bgColor) {
+    width: $ancho;
+    height: $alto;
+    background-color: $bgColor;
+ }

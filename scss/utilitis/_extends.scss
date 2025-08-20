@@ -1,0 +1,11 @@
+// Extends
+ %flexBasico {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ %backgraundPages {   
+    background-size: cover;
+    height: 95vh;
+    position: relative;
+ }
