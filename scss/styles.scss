@@ -84,7 +84,9 @@ ul{
 }
 .proyectos-header{
     background-image: url(../imagenes/FONDO21.jpg);
-    @extend %backgraundPages;
+    background-size: cover;
+    height: 95vh;
+    position: relative;
     background-position: right;
 }
 .index-header a{

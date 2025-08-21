@@ -108,8 +108,13 @@ footer img {
 }
 
 .proyectos-header {
-  background-image: url(../imagenes/FONDO21.jpeg);
-  
+   background-image: url(../imagenes/FONDO21.jpg);
+    background-size: cover;
+    height: 95vh;
+    position: relative;
+    background-position: right; 
+   
+   
 }
 
 .index-header a {
@@ -236,13 +241,14 @@ main {
 .contenedor-proyectos-grid_3 h4,
 .contenedor-proyectos-grid_4 p,
 .contenedor-proyectos-grid_4 h4,
-.contenedor-proyectos-grid_5 p .contenedor-proyectos-grid_5 h4,
+.contenedor-proyectos-grid_5 p, 
+.contenedor-proyectos-grid_5 h4,
 .contenedor-proyectos-grid_6 p,
 .contenedor-proyectos-grid_6 h4,
 .contenedor-proyectos-grid_7 p,
 .contenedor-proyectos-grid_7 h4 {
-  padding-left: 1rem;
-  text-align: center;
+   display: grid;
+
 }
 
 .proyectos-h2 {
@@ -327,7 +333,7 @@ ul {
 }
 
 .proyectos-header {
-  background-image: url(../imagenes/FONDO10.jpg);
+  background-image: url(../imagenes/FONFO10.jpg);
   background-position: right;
 }
 
@@ -402,12 +408,13 @@ main {
   padding-bottom: 1rem;
   border-radius: 0, 5rem;
   box-shadow: 0px 0px 20px 0px rgba(184, 170, 170, 0.956);
+  justify-self: center;
 }
 
 .card-proyecto img {
-  width: 90%;
+  width: 70%;
   border-radius: 5rem;
-  object-fit: cover;
+
 }
 
 .p {
@@ -462,6 +469,7 @@ main {
 .contenedor-proyectos-grid_7 h4 {
   padding-left: 1rem;
   padding: 0 1,2rem;
+
 }
 
 .proyectos-h2 {
@@ -505,6 +513,7 @@ main {
   gap: 0, 5rem;
   padding: 0 1rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .experiencia-container-grid article {
@@ -551,6 +560,7 @@ footer img {
   height: 20vh;
   gap: 1rem;
   border-radius: 1rem;
+  
 }
 
 .footer-container {
