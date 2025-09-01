@@ -1,63 +1,10 @@
-<<<<<<< HEAD
-/* Estilos Generales */
-*{
-    font-family: "Quicksand", sans-serif !important;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: black;
-}
-.body{
-    background-color: black
-}
-.centrar-texto{
-    display: flex;
-    text-align: center;
-    height: 100%;
-}
-.header a{
-    color:black;
-    text-decoration: none;
-}
-.whatsappcontainer{
-    
-    width: 6rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    
-    cursor: pointer;
-}
-.whatsapplogo{
-    width: 4rem;
-
-}
-ul{
-    display: flex;
-    list-style: none;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-}
-.oscurecer-fondo{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #f5f5dc81;
-=======
 .whatsappcontainer, .index-header-contenedor-inferior {
   display: flex;
   align-items: center;
   justify-content: center;
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
 }
 
-.proyectos-header, .index-header {
+.index-header {
   background-size: cover;
   height: 95vh;
   position: relative;
@@ -90,6 +37,7 @@ ul{
 
 .proyecyo-container {
   gap: 2, 5rem;
+  text-align: center;
 }
 
 .experiencia-container-grid {
@@ -99,10 +47,18 @@ ul{
   gap: 0, 5rem;
   padding: 0 1rem;
   margin-bottom: 1rem;
+  text-align: center;
+}
+
+.experiencia-container-grid h4 {
+  text-decoration: underline;
 }
 
 .experiencia-container-grid article {
   border: 1px solid black;
+  text-align: center;
+  padding: 1%;
+  margin: 1rem;
 }
 
 .experiencia_1 {
@@ -161,39 +117,11 @@ footer img {
 }
 
 .proyectos-header {
-   background-image: url(../imagenes/FONDO21.jpg);
-    background-size: cover;
-    height: 95vh;
-<<<<<<< HEAD
-}
-.proyectos-header{
-    background-image: url(../imagenes/fondoOK2.jpg);
-    background-position: right;
-}
-.index-header a{
-    border: 1px solid #f5f5dc81;
-    padding: 0.5rem;
-
-}
-.index-h1 {
-    color: black;
-    text-align: center;
-
- }
-.index-header-btn {
-    
-    background-color: darkgray;
-    padding: 0.5rem 2rem;
-    border-radius: 0,3rem;
-    border: none;
-    color: var(rgb(0, 0, 0));
-    margin: 2rem;
-=======
-    position: relative;
-    background-position: right; 
-   
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
-   
+  background-image: url(../imagenes/fondoOK2.jpg);
+  background-size: cover;
+  height: 95vh;
+  position: relative;
+  background-position: right;
 }
 
 .index-header a {
@@ -204,8 +132,6 @@ footer img {
 .index-h1 {
   color: #000;
   text-align: center;
-  padding: 1rem;
-  text-decoration: underline;
 }
 
 .index-header-btn {
@@ -215,57 +141,16 @@ footer img {
   border: none;
   color: #000;
   margin: 2rem;
+  position: relative;
+  background-position: right;
 }
 
 .index-header-contenedor-superior {
-<<<<<<< HEAD
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1rem;
-
-  
-}
-.flex-botones{
-    display: flex;
-    gap: 2rem;
-    
-}
-.logosheader{
-   width: 4mer; 
-   height: 4rem;
-   object-fit: cover;
-
-}
-.index-header-contenedor-inferior{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding: 0 1,5rem;
-
-    gap: 2rem;
-
-}
-.bienvenida-texto{
-    font-size: 2rem;
-    text-align: center;
- 
-}
-.index-header-contenedor-inferior p{
-    text-align: center;
-    padding: 2rem;
-    margin: 2rem;
-    
-=======
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-flow: column;
   justify-content: space-between;
   gap: 1rem;
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
 }
 
 .flex-botones {
@@ -282,13 +167,8 @@ footer img {
 .index-header-contenedor-inferior {
   flex-direction: column;
   gap: 2rem;
-  height: 100vh;
+  height: 80vh;
   padding: 0 1, 5rem;
-}
-.index-header-contenedor-inferior p {
-  text-align: center;
-  padding: 1rem;
-  margin: 1rem;
 }
 
 .bienvenida-texto {
@@ -296,6 +176,17 @@ footer img {
   text-align: center;
   padding: 1rem;
   margin: 1rem;
+  flex-flow: column;
+}
+
+.index-header-contenedor-inferior p {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .fondonegro {
@@ -312,49 +203,30 @@ main {
   padding-bottom: 1rem;
   border-radius: 0, 5rem;
   box-shadow: 0px 0px 20px 0px rgba(184, 170, 170, 0.956);
+  justify-self: center;
 }
 
 .card-proyecto img {
-<<<<<<< HEAD
-    width: 40%;
-    border-radius: 4rem;
-    object-fit: cover;
-    text-align: center;
+  width: 40%;
+  border-radius: 4rem;
+  object-fit: cover;
+  text-align: center;
 }
 
 .p {
-    text-align: center;
-    
-    
-    
-=======
+  text-align: center;
   width: 90%;
   border-radius: 5rem;
   object-fit: cover;
 }
 
-.p {
-  text-align: center;
-  
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
-
-}
-
 .contenedor-proyectos-grid {
-<<<<<<< HEAD
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 1rem;
-padding: 1rem;
-
-=======
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   padding: 0 1rem;
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
+  width: 100%;
 }
 
 .contenedor-proyectos-grid_1,
@@ -362,19 +234,10 @@ padding: 1rem;
 .contenedor-proyectos-grid_3,
 .contenedor-proyectos-grid_4,
 .contenedor-proyectos-grid_5 {
-<<<<<<< HEAD
-    background-color: rgb(255, 253, 253);
-    max-width: 30rem;
-    padding-bottom: 1rem;
-    border: 1px solid black
-    
-=======
   background-color: #fff;
   max-width: 30rem;
   padding-bottom: 1rem;
   border: 1px solid black;
-  border-radius: 1rem;
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
 }
 
 .contenedor-proyectos-grid_1 img,
@@ -382,27 +245,12 @@ padding: 1rem;
 .contenedor-proyectos-grid_3 img,
 .contenedor-proyectos-grid_4 img,
 .contenedor-proyectos-grid_5 img {
-  width: 50%;
-  
+  width: 100%;
+  object-fit: cover;
+  height: 90vh;
+  gap: 1rem;
+  border-radius: 1rem;
 }
-<<<<<<< HEAD
-.experiencia-container-grid_1 p,
-.experiencia-container-grid_1 h4,
-.experiencia-container-grid_2 p,  
-.experiencia-container-grid_2 h4,
-.experiencia-container-grid_3 p,
-.experiencia-container-grid_3 h4,
-.experiencia-container-grid_4 p,
-.experiencia-container-grid_4 h4, 
-.experiencia-container-grid_5 p
-.experiencia-container-grid_5 h4
-.experiencia-container-grid_6 p
-.experiencia-container-grid_6 h4
-.experiencia-container-grid_7 p
-.experiencia-container-grid_7 h4{
-   
-   text-align: center;
-=======
 
 .contenedor-proyectos-grid_1 p,
 .contenedor-proyectos-grid_1 h4,
@@ -412,19 +260,20 @@ padding: 1rem;
 .contenedor-proyectos-grid_3 h4,
 .contenedor-proyectos-grid_4 p,
 .contenedor-proyectos-grid_4 h4,
-.contenedor-proyectos-grid_5 p, 
-.contenedor-proyectos-grid_5 h4,
+.contenedor-proyectos-grid_5 p .contenedor-proyectos-grid_5 h4,
 .contenedor-proyectos-grid_6 p,
 .contenedor-proyectos-grid_6 h4,
 .contenedor-proyectos-grid_7 p,
 .contenedor-proyectos-grid_7 h4 {
-   display: grid;
-
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
+  display: grid;
+  text-align: center;
+  padding-left: 1rem;
+  align-content: center;
 }
 
 .proyectos-h2 {
   margin: 2rem;
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 800px) {
@@ -473,8 +322,7 @@ padding: 1rem;
 ul {
   display: flex;
   list-style: none;
-  padding: 1rem;
-  margin: 0,5rem; 
+  flex-direction: column;
   gap: 2rem;
   align-items: center;
 }
@@ -505,7 +353,10 @@ ul {
 }
 
 .proyectos-header {
-  background-image: url(../imagenes/FONFO10.jpg);
+  background-image: url(../imagenes/fondoOK2.jpg);
+  background-size: cover;
+  height: 95vh;
+  position: relative;
   background-position: right;
 }
 
@@ -526,12 +377,14 @@ ul {
   border: none;
   color: #000;
   margin: 2rem;
+  position: relative;
+  background-position: right;
 }
 
 .index-header-contenedor-superior {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-flow: column;
   justify-content: space-between;
   gap: 1rem;
 }
@@ -550,20 +403,27 @@ ul {
 .index-header-contenedor-inferior {
   flex-direction: column;
   gap: 2rem;
-  height: 100vh;
+  height: 80vh;
   padding: 0 1, 5rem;
 }
 
 .bienvenida-texto {
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
+  padding: 1rem;
+  margin: 1rem;
   text-decoration: underline;
+  flex-flow: column;
 }
 
 .index-header-contenedor-inferior p {
   text-align: center;
   padding: 1rem;
   margin: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .fondonegro {
@@ -584,13 +444,17 @@ main {
 }
 
 .card-proyecto img {
-  width: 70%;
-  border-radius: 5rem;
-
+  width: 40%;
+  border-radius: 4rem;
+  object-fit: cover;
+  text-align: center;
 }
 
 .p {
   text-align: center;
+  width: 90%;
+  border-radius: 5rem;
+  object-fit: cover;
 }
 
 .contenedor-proyectos-grid {
@@ -599,6 +463,7 @@ main {
   justify-content: center;
   gap: 1rem;
   padding: 0 1rem;
+  width: 100%;
 }
 
 .contenedor-proyectos-grid_1,
@@ -617,7 +482,6 @@ main {
 .contenedor-proyectos-grid_3 img,
 .contenedor-proyectos-grid_4 img,
 .contenedor-proyectos-grid_5 img {
-
   width: 100%;
   object-fit: cover;
   height: 90vh;
@@ -633,15 +497,15 @@ main {
 .contenedor-proyectos-grid_3 h4,
 .contenedor-proyectos-grid_4 p,
 .contenedor-proyectos-grid_4 h4,
-.contenedor-proyectos-grid_5 p 
-.contenedor-proyectos-grid_5 h4,
+.contenedor-proyectos-grid_5 p .contenedor-proyectos-grid_5 h4,
 .contenedor-proyectos-grid_6 p,
 .contenedor-proyectos-grid_6 h4,
 .contenedor-proyectos-grid_7 p,
 .contenedor-proyectos-grid_7 h4 {
+  display: grid;
+  text-align: center;
   padding-left: 1rem;
-  padding: 0 1,2rem;
-
+  align-content: center;
 }
 
 .proyectos-h2 {
@@ -665,27 +529,18 @@ main {
   text-align: center;
   max-width: 25rem;
 }
-<<<<<<< HEAD
- .experiencia-card h4 {
-    text-decoration: underline;
-=======
 
 .experiencia-card h2 {
   margin: 0, 5rem 0;
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
 }
 
 .experiencia-card p {
-<<<<<<< HEAD
-    font-weight: 300;
-    text-align: center;
-=======
   font-weight: 300;
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
 }
 
 .proyecyo-container {
   gap: 2, 5rem;
+  text-align: center;
 }
 
 .experiencia-container-grid {
@@ -698,21 +553,15 @@ main {
   text-align: center;
 }
 
-<<<<<<< HEAD
 .experiencia-container-grid h4 {
-    text-decoration: underline;
-}    
-    
+  text-decoration: underline;
+}
 
 .experiencia-container-grid article {
-    border: 1px solid black;
-    text-align: center;
-    padding: 1%;
-    margin: 1rem;
-=======
-.experiencia-container-grid article {
   border: 1px solid black;
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
+  text-align: center;
+  padding: 1%;
+  margin: 1rem;
 }
 
 .experiencia_1 {
@@ -755,7 +604,6 @@ footer img {
   height: 20vh;
   gap: 1rem;
   border-radius: 1rem;
-  
 }
 
 .footer-container {

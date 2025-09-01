@@ -5,9 +5,11 @@
    @extend %backgraundPages;
 }
 .proyectos-header{
-    background-image: url(../imagenes/FONDO21.jpg);
-    @extend %backgraundPages;
-   
+    background-image: url(../imagenes/fondoOK2.jpg);
+    background-size: cover;
+    height: 95vh;
+    position: relative;
+    background-position: right;
 }
 .index-header a{
     border: 1px solid $gris;
@@ -19,37 +21,28 @@
     text-align: center;
 
  }
-<<<<<<< HEAD
-.index-header-btn {    
-=======
+
 .index-header-btn {
-    
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
+
     background-color: darkgray;
     padding: 0.5rem 2rem;
     border-radius: 0,3rem;
     border: none;
     color: $negro;
     margin: 2rem;
-<<<<<<< HEAD
-    
-=======
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
+
+    position: relative;
+    background-position: right; 
    
 }
 
 .index-header-contenedor-superior {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-flow: column;
     justify-content: space-between;
     gap: 1rem;
-<<<<<<< HEAD
-    padding: 2rem;
-=======
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
 
-  
 }
 .flex-botones{
     display: flex;
@@ -63,53 +56,35 @@
 
 }
 .index-header-contenedor-inferior{
-<<<<<<< HEAD
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
- 
- 
-    background-size: cover;
-    position: relative;
-=======
     @extend %flexBasico;
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
+
     flex-direction: column;
     gap: 2rem;    
 
-    height: 100vh;
-<<<<<<< HEAD
-    padding: 1rem;
-}
-
- p  {    
-    text-align: center;
-    padding: 2rem;
-    margin: 1rem;
     height: 80vh;
-}
-
-
-.bienvenida-texto{
-    font-size: 2rem;
-    text-align: center;
-    margin: 5rem;
-=======
     padding: 0 1,5rem;
 
- p  {    
-    text-align: center;
-    padding: 1rem;
-    margin: 1rem;
-}
+    
 
 }
 .bienvenida-texto{
-    font-size: 2rem;
-    text-align: center;
->>>>>>> a4455c5deaeb85b4a7f64224f4e774d169e3a8c3
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  flex-flow: column;
  
+}
+.index-header-contenedor-inferior p{
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
 }
 
 .fondonegro{
